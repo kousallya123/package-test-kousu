@@ -9,4 +9,8 @@ export class MyService {
   getGoodbye(): string {
     return 'Goodbye from my custom NestJS package!';
   }
+
+  updatedGoodbye(): string {
+    return 'Goodbye!!!!!!!!!!!!!!!!!!!!!!!!';
+  }
 }
